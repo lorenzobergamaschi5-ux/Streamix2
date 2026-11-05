@@ -1,0 +1,21 @@
+name: tvflow
+description: Player IPTV con playlist M3U, preferiti, liste personali e casting.
+publish_to: none
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+dependencies:
+  flutter: {sdk: flutter}
+  flutter_riverpod: ^2.6.1
+  media_kit: ^1.1.11
+  media_kit_video: ^1.2.5
+  media_kit_libs_video: ^1.0.5
+  http: ^1.2.2
+  file_picker: ^8.1.2
+  path_provider: ^2.1.4
+  shared_preferences: ^2.3.2
+  cached_network_image: ^3.4.1
+  cast: ^2.1.0
+  flutter_to_airplay: ^2.0.4
+  wakelock_plus: ^1.2.8
+flutter:
+  uses-material-design: true
